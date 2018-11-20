@@ -7,8 +7,8 @@ This is a react-native component for IOS and Android that uses React Native SVG 
 npm install react-native-svgwheel-menu --save
 ```
 ## Demo
-![alt text](https://i.postimg.cc/85jkbyJs/Screenshot-1542630945.png)
-![alt text](https://i.postimg.cc/909W6rBh/Screenshot-1542630947.png)
+![alt text](https://i.postimg.cc/MGZ1z844/s1.png)
+![alt text](https://i.postimg.cc/c4qYr32f/s2.png)
 
 ```javascript
 import GeneratePathCanvas from "react-native-svgwheel-menu";
@@ -17,35 +17,42 @@ const userPurchases = [
     {
         id: '1.1',
         parent: '0.0',
-        itemName: 'Sales',
+        itemName: 'USA',
         price: 1,
         color: ''
     },
     {
         id: '1.2',
         parent: '0.0',
-        itemName: 'Allocation',
+        itemName: 'ITALY',
         price: 1,
         color: ''
     },
     {
         id: '1.3',
         parent: '0.0',
-        itemName: 'Margins',
+        itemName: 'PORTUGAL',
         price: 1,
         color: ''
     },
     {
         id: '1.4',
         parent: '0.0',
-        itemName: 'Inventory',
+        itemName: 'ENGLAND',
         price: 1,
         color: ''
     },
     {
         id: '2.1',
         parent: '1.1',
-        itemName: 'Daily Sales',
+        itemName: 'TEXAS',
+        price: 1,
+        color: ''
+    },
+    {
+        id: '2.2',
+        parent: '1.1',
+        itemName: 'INDIANA',
         price: 1,
         color: ''
     }
