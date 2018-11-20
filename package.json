@@ -1,6 +1,6 @@
 {
   "name": "react-native-svgwheel-menu",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React Native Svg Wheel",
   "main": "GeneratePathCanvas.js",
   "scripts": {
@@ -15,6 +15,10 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rantoinne/React-Native-SVGWheel-Menu.git"
   },
   "keywords": [
     "React",
